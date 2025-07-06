@@ -1,31 +1,10 @@
 import { Semester } from '../types';
-import maths1 from '../assets/notes/1st sem/maths 1st sem.pdf';
-import physics1 from '../assets/notes/1st sem/physics sem 1.pdf';
-import electrical1 from '../assets/notes/1st sem/electrical1.pdf';
-import DBMS from '../assets/notes/6th sem/DBMS 6th sem.pdf';
-import image from '../assets/notes/6th sem/image 6th sem.pdf';
-import research from '../assets/notes/6th sem/research 6th sem.pdf';
-import pattern from '../assets/notes/6th sem/pattern.pdf';
-import AI from '../assets/notes/5th sem/AI.pdf';
-import CD from '../assets/notes/5th sem/CD.pdf';
-import oops from '../assets/notes/5th sem/oops.pdf';
-import OS from '../assets/notes/5th sem/OS.pdf';
-import CA from '../assets/notes/4th sem/CA 4th sem.pdf';
-import DAA from '../assets/notes/4th sem/DAA 4th sem.pdf';
-import EVS from '../assets/notes/4th sem/EVS notes.pdf';
-import maths from '../assets/notes/4th sem/maths 4th sem.pdf';
-import AD from '../assets/notes/3rd sem/AD.pdf'; 
-import CO from '../assets/notes/3rd sem/CO.pdf';
-import dsa from '../assets/notes/3rd sem/dsa.pdf';
-import economics from '../assets/notes/3rd sem/economics.pdf';
-import C from '../assets/notes/2nd sem/C.pdf';
-import chemistry from '../assets/notes/2nd sem/chemistry.pdf';
-import programs from '../assets/notes/2nd sem/programs.pdf';
 
 
 
 
-import CN from '../assets/notes/6th sem/CN 6th sem.pdf';
+
+
 export const semesters: Semester[] = [
   {
     id: 1,
@@ -34,18 +13,18 @@ export const semesters: Semester[] = [
       {
         id: 101,
         name: "Engineering Mathematics I",
-        notesUrl: maths1
+        notesUrl: "https://drive.google.com/file/d/19s8_fBdmheOaf4HYOKm2vslekxmNjyOd/view?usp=sharing"
         
       },
       {
         id: 102,
         name: "Engineering Physics",
-        notesUrl: physics1
+        notesUrl: "https://drive.google.com/file/d/1MWQqSLoswe921ARg3K6x3FS06haEyLWM/view?usp=sharing"
       },
       {
         id: 103,
         name: "Electrical Engineering",
-        notesUrl: electrical1
+        notesUrl: "https://drive.google.com/file/d/1yUUQHepMFmc3JBDepILU3jWUGhG9DNiC/view?usp=sharing"
       },
       
     ]
@@ -58,17 +37,17 @@ export const semesters: Semester[] = [
       {
         id: 201,
         name: "Programming for Problem Solving",
-        notesUrl: C
+        notesUrl: "https://drive.google.com/file/d/1csS8twlblQLbPvFjxlwG0Qh0I7RFp7yZ/view?usp=sharing"
       },
       {
         id: 202,
         name: "Chemistry for Engineers",
-        notesUrl: chemistry
+        notesUrl: "https://drive.google.com/file/d/1ohpnZzcwlbLeNaDz0Z8d_dO_H_5-2urx/view?usp=sharing"
       },
       {
         id: 203,
         name: "Programs",
-        notesUrl: programs
+        notesUrl: "https://drive.google.com/file/d/1y9_tpnw4jTUjnTqy7jZolybKM1Q_UBMF/view?usp=sharing"
       },
     ]
   },
@@ -79,22 +58,22 @@ export const semesters: Semester[] = [
       {
         id: 301,
         name: "Analog and Digital",
-        notesUrl: AD
+        notesUrl: "https://drive.google.com/file/d/1HHZ_AhWCznbOAJDJD_XzGhBn-TnrulRu/view?usp=sharing"
       },
       {
         id: 302,
         name: "Data Structures and Algorithms",
-        notesUrl: dsa
+        notesUrl: "https://drive.google.com/file/d/1EDgSLJRmwA10voAvfhZf2tWdRJQd__Pj/view?usp=sharing"
       },
       {
         id: 303,
         name: "Economics for Engineers",
-        notesUrl: economics
+        notesUrl: "https://drive.google.com/file/d/1CcxVIV8WcpxNrmZ9Mt6yacspV9ceC7Hf/view?usp=sharing"
       },
       {
         id: 304,
         name: "Computer Organization",
-        notesUrl: CO
+        notesUrl: "https://drive.google.com/file/d/1gHRa1NoX7yZS9dPBWXTKPyiwTICuvD-z/view?usp=sharing"
       },
       
     ]
@@ -106,22 +85,22 @@ export const semesters: Semester[] = [
       {
         id: 401,
         name: "Computer Architecture",
-        notesUrl: CA
+        notesUrl: "https://drive.google.com/file/d/1_-6-Ty8igmnqwgA-HTPvBNOCgK7T1MD1/view?usp=sharing"
       },
       {
         id: 402,
         name: "Design and Analysis of Algorithm",
-        notesUrl: DAA
+        notesUrl: "https://drive.google.com/file/d/1lay0cTa1SUeJ7nO37LNxBZ0blCdECzKE/view?usp=sharing"
       },
       {
         id: 403,
         name: "Environmental Science",
-        notesUrl: EVS
+        notesUrl: "https://drive.google.com/file/d/1-nuSMTzIpEdnEQFgM-c9viC8qlZZyaIx/view?usp=sharing"
       },
       {
         id: 404,
         name: "Engineering Mathematics IV",
-        notesUrl: maths
+        notesUrl: "https://drive.google.com/file/d/1KFVsMpd6-H8Eqku90Py06ugOTqmvngTm/view?usp=sharing"
       },
       
     ]
@@ -133,22 +112,22 @@ export const semesters: Semester[] = [
       {
         id: 501,
         name: "Artificial Intelligence",
-        notesUrl: AI
+        notesUrl: "https://drive.google.com/file/d/1Sh_FygDRrMZz2mp2bz9efAbqoUGr2BJL/view?usp=sharing"
       },
       {
         id: 502,
         name: "Compiler Design",
-        notesUrl: CD
+        notesUrl: "https://drive.google.com/file/d/1AxJYpr1IpDadsCTzloc7DBEFmdrqmEeG/view?usp=sharing"
       },
       {
         id: 503,
         name: "Operating System",
-        notesUrl: OS
+        notesUrl: "https://drive.google.com/file/d/17uFkLd0KMbq2Uol4Xfz_qkDP39ilA6dr/view?usp=sharing"
       },
       {
         id: 504,
         name: "Object Oriented Programming",
-        notesUrl: oops
+        notesUrl: "https://drive.google.com/file/d/174om82WQ75urDEZf97XGS6ahfQSmASub/view?usp=sharing"
       },
       
     ]
@@ -160,27 +139,27 @@ export const semesters: Semester[] = [
       {
         id: 601,
         name: "Computer Network",
-        notesUrl: CN
+        notesUrl: "https://drive.google.com/file/d/1jrEAtNaeN90H9m-zNBBErQ0LvfJ38QFg/view?usp=sharing"
       },
       {
         id: 602,
         name: "Database Management System",
-        notesUrl: DBMS
+        notesUrl: "https://drive.google.com/file/d/1scVYQFxmqiuVymLw_Zkq9NaxquTDNHij/view?usp=sharing"
       },
       {
         id: 603,
         name: "Image Processing",
-        notesUrl: image
+        notesUrl: "https://drive.google.com/file/d/1xkG4mrSki-4on0bZIr3E-TyHLRDp6DM3/view?usp=sharing"
       },
       {
         id: 604,
         name: "Research Methodology",
-        notesUrl: research
+        notesUrl: "https://drive.google.com/file/d/1HwqgLZHiuIRD5byZTFb_D9cgn1HmszwZ/view?usp=sharing"
       },
       {
         id: 605,
         name: "Pattern Recognition",
-        notesUrl: pattern
+        notesUrl: "https://drive.google.com/file/d/1N0HLfAchh4bFQxezlxT2HpHesBlKCXtq/view?usp=sharing"
       }
     ]
   },
